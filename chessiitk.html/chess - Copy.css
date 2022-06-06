@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+.navbar-brand{
+    font: 200;
+}
+
+.body{
+    background-color:rgb(3, 3, 14);
+}
+
+.para{
+    color: aliceblue;
+}
+.para1{
+    margin-top: 30px;
+}
+.para2{
+    margin-top: 30px;
+}
+.cards{
+    
+    display:flex;
+    margin: 20px;
+}
+.cards .card{
+    margin: 20px;
+    
+}
+
+.icons{
+    color: black;
+}
+.foot{
+    color:black;
+}
+.team{
+    /* display:flex; */
+    background-color: white;
+    margin:10px;
+}
+.flex{
+    display:flex;
+}
+
+.team .teammember{
+    margin:20px;
+    
+}
+.team .teammember h3{
+color:blue;
+}
+.heading h2{
+    color: chartreuse;
+    font-family:cursive;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logo img{
+    
+    margin-left: 20px;
+    height: 30px;
+    width:30px;
+}
+.maindiv{
+    
+    width:60%;
+    height:500px;
+    position:relative;
+    left:15%;
+    
+    background-image: url('chess3.jpg');
+    background-size:100% 100% ;
+    box-shadow:4px 4px 15px rgb(193, 73, 25);  
+    /* horizontal, vertical, blur, color */
+    animation:slider 12s infinite linear;
+}
+@keyframes slider{
+    0%{  background-image: url('chessA5.jpg'); }
+    35%{ background-image: url('chessA1.jpg'); } 
+    75%{ background-image: url('chessA2.jpg'); } 
+}
+.submenu1{
+    display: none;
+}
+.nav-item ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: rgb(193, 25, 171);
+}
+.sponsors{
+    display: flex;
+    margin-left: 400px;
+}
+.spo{
+    color: aqua;
+    text-align: center;
+}
+
+.norway{
+    margin-left: 10%;
+}
+.norway img{
+    height:600px;
+    width:1000px;
+}
+.norway h2{
+    color:chartreuse;
+    font: 500;
+}
+.cards{
+    margin-left: 13%;
+}
+.go{
+    color: dodgerblue;
+}
+.embed{
+    display:flex;
+}
+.youtube{
+    width:420px;
+    height:250px;
+    margin-left: 125px;
+}
+.titles h2{
+    margin-top: 70px;
+    color: aqua;
+    text-align: center;
+}
+.title1{
+    color: white;
+    text-align: center;
+}
+.parag p{
+  color: white;
+  text-align: center;
+
+}
+.parag ul{
+    margin-left: 530px;
+  
+}
+.parag ul li{
+    color: white;
+}
+
+
+/* .teammember1{
+    margin:20px;
+}
+.teammember2{
+    margin:20px;
+}
+.teammember3{
+margin:20px;
+} */
